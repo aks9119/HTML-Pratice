@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: rgb(245, 245, 245);
+        }
+    </style>
+</head>
+<body>
+    <img src="https://images.pexels.com/photos/19397456/pexels-photo-19397456/free-photo-of-enter-the-void.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"width="100px" alt="no image">
+    <img src="./html-course.png"width="400px" alt="no image"> 
+    <!-- an image map generator -->
+    <img src="html-course.png"usemap="#image-map">
+
+    <map name="image-map">
+        <area onclick="one()" alt="" title="" href="" coords="812,309,1348,589" shape="rect">
+        <area onclick="two()" alt="" title="" href="" coords="251,314,785,584" shape="0">
+    </map>
+    <script>
+        function one() {
+            alert("you clicked on")
+        }
+        function two() {
+            alert("you clicked off")
+        }
+    </script>
+</body>
+</html> 
